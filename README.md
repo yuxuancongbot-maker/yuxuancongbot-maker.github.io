@@ -1,7 +1,33 @@
-# Yuxuan Cong — Academic Homepage
+# Yuxuan Cong Academic Homepage (V4)
 
-Upload `index.html`, `.nojekyll`, and the entire `assets` folder to the root of the public GitHub repository `yuxuancongbot-maker.github.io`. In Settings → Pages select Deploy from a branch → main → /(root).
+This package is ready for GitHub Pages deployment.
 
-Local preview: open index.html in a browser. Keep the assets folder next to it.
+## Files to upload
+Upload **all files and folders** in this package to the root of the repository:
+- `index.html`
+- `README.md`
+- `assets/`
 
-Content updated from the supplied CV. The original CV, private contact information, and under-review research are intentionally excluded. The portrait is extracted from the supplied CV. Research illustrations remain conceptual placeholders. Confirm the translated organization/award names and pre-existing paper/project URLs before publishing. Add a public contact email or sanitized CV only after reviewing them.
+## Important deployment note
+If the profile photo or project images do not appear, it usually means the `assets` folder was not uploaded together with `index.html`, or GitHub Pages is still serving an older cached version.
+
+## Included visual assets
+- `assets/profile.jpg` — profile photo extracted from CV
+- `assets/step-poster.png` — STEP ICML 2026 poster image
+- `assets/underwater-robot.png` — underwater robot project photo
+- `assets/apxinf-logo.png` — APXInf logo
+
+## Suggested repository structure
+```
+yuxuancongbot-maker.github.io/
+├── index.html
+├── README.md
+└── assets/
+    ├── profile.jpg
+    ├── step-poster.png
+    ├── underwater-robot.png
+    └── apxinf-logo.png
+```
+
+## V4 update
+Added a Beyond Research section and a Personal navigation link. All existing images and content are preserved.
